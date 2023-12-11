@@ -1,0 +1,77 @@
+.blog {
+  background-color: rgb(209, 13, 13);
+  border: none;
+  width: 80px;
+  height: 50px;
+  border-radius: 3px;
+}
+.botton {
+  /* width: 50px; */
+  height: 50px;
+  background-color: rgb(147, 144, 144);
+  border: none;
+  border-radius: 3px;
+}
+
+#video-section {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.vcards {
+  width: 200px;
+  height: 200%;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+/* .vcards{
+  margin-top: 10px;
+  width: 380px;
+  height: 100%;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+} */
+.v-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+/* .v-img{
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px 10px;
+} */
+.chanal {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+.chanal-img {
+  height: 32px;
+  width: 100%;
+  height: 200px;
+}
+.profile-container {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1f);
+  grid-gap: 10px;
+  background-color: red;
+}
+.profile-item {
+  width: 100%;
+  height: 400px;
+  background-color: coral;
+}
+.btn-toolbar {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
